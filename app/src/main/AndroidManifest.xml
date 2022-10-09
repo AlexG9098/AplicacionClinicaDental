@@ -13,6 +13,27 @@
         android:theme="@style/Theme.ClinicaDental"
         tools:targetApi="31">
         <activity
+            android:name=".Servicios"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Agenda"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Registro"
             android:exported="false">
             <meta-data
